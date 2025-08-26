@@ -90,7 +90,20 @@ def generate_presentation(request):
         # Determine the action from the request, default to 'generate_presentation'
         action = request_json.get('action', 'generate_presentation')
 
-        if action == 'generate_speaker_notes':
+        if action == 'get_config':
+            # This action provides the frontend with necessary configuration, like the service account email.
+            # The FUNCTION_SERVICE_ACCOUNT is set during deployment via deploy.sh.
+            service_account_email = os.environ.get('FUNCTION_SERVICE_ACCOUNT')
+            if not service_account_email:
+                # Fallback for local testing where the env var might not be set.
+                # The credentials object holds the email of the service account being used.
+                service_account_email = credentials.service_account_email
+            
+            response_headers = headers.copy()
+            response_headers['Content-Type'] = 'application/json'
+            return (json.dumps({'service_account_email': service_account_email}), 200, response_headers)
+
+        elif action == 'generate_speaker_notes':
             slides_data = request_json.get('slides_data')
             if not slides_data:
                 return ("Error: 'slides_data' is required for generating speaker notes.", 400, headers)
@@ -402,8 +415,26 @@ def generate_presentation(request):
                                                 'fields': 'bold,italic,underline,strikethrough,fontFamily,fontSize,foregroundColor,backgroundColor' # Use a specific field mask.
                                             }})
                             elif 'image' in new_element:
-                                requests.append({'createImage': {'objectId': new_element['objectId'], 'url': new_element['image']['contentUrl'], 'elementProperties': {'pageObjectId': new_slide_id, 'size': new_element.get('size'), 'transform': new_element.get('transform')}}})
-                                
+                                # The 'contentUrl' for an image is temporary and not publicly accessible,
+                                # which causes the 'createImage' request to fail with a 400 error.
+                                # The 'sourceUrl' field, if present, often points to the original,
+                                # publicly accessible URL and is more reliable for copying.
+                                image_url = new_element['image'].get('sourceUrl')
+
+                                if image_url:
+                                    requests.append({'createImage': {
+                                        'objectId': new_element['objectId'],
+                                        'url': image_url,
+                                        'elementProperties': {
+                                            'pageObjectId': new_slide_id,
+                                            'size': new_element.get('size'),
+                                            'transform': new_element.get('transform')
+                                        }
+                                    }})
+                                else:
+                                    # If no public sourceUrl is available (e.g., for copy-pasted images),
+                                    # log a warning and skip this element to prevent the function from crashing.
+                                    logging.warning(f"Skipping image element '{new_element['objectId']}' from source slide '{slide_to_copy['slide_id']}' because it does not have a public 'sourceUrl'. This is a known limitation when copying pasted images via the Slides API.")
                 except HttpError as err:
                     logging.error(f"Could not copy slide {slide_to_copy['slide_id']}: {err}")
 

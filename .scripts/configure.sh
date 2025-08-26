@@ -12,9 +12,9 @@ gcloud config set project $PROJECT_ID
 # Get your project number
 PROJECT_NUMBER=$(gcloud projects describe $PROJECT_ID --format="value(projectNumber)")
 
-# The IAM service account the Cloud Function will run as when deployed.
-# This defaults to the project's Compute Engine service account.
-export FUNCTION_SERVICE_ACCOUNT="${PROJECT_NUMBER}-compute@developer.gserviceaccount.com"
+# The IAM service account the Cloud Function will run as.
+# This is set to match the service account used for local testing to ensure consistent permissions.
+export FUNCTION_SERVICE_ACCOUNT="${PROJECT_ID}@appspot.gserviceaccount.com"
 
 export REGION="us-central1"
 export LOG_NAME="agentspace_hcls_demo_log"

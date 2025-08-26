@@ -35,7 +35,7 @@
 <body class="p-6">
 
     <div class="container bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
-        <h1 class="text-3xl font-bold mb-4 text-gray-800">AI Presentation Generator</h1>
+        <h1 class="text-3xl font-bold mb-4 text-gray-800">AI Presentation Generato (go/make-slide-deck)</h1>
         <p class="mb-6 text-gray-600">
             This application uses a Google Cloud Function backend to generate a real, editable presentation deck in Google Slides based on your request.
         </p>
@@ -59,6 +59,10 @@
             <div>
                 <label for="folder-url" class="block text-sm font-medium text-gray-700">Source Slides Folder URL</label>
                 <input type="text" id="folder-url" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="https://drive.google.com/drive/folders/1jSqMJc0oIt5SmF5EJaMazhkyCsIfLWVm?usp=drive_link">
+                <p id="sharing-instructions" class="mt-2 text-xs text-gray-500">
+                    Please ensure this Google Drive folder is shared with the function's service account: 
+                    <strong id="service-account-email" class="text-gray-700 font-medium">kallogjeri-project-345114@appspot.gserviceaccount.com</strong>
+                </p>
             </div>
             <div>
                 <label for="slides-to-update" class="block text-sm font-medium text-gray-700">Existing Presentation URL to Update (Optional)</label>
@@ -108,11 +112,43 @@
             const notesLoadingIndicator = document.getElementById('notes-loading-indicator');
             const notesOutputBox = document.getElementById('notes-output-box');
             const notesOutputContent = document.getElementById('notes-output-content');
+            const sharingInstructions = document.getElementById('sharing-instructions');
+            const serviceAccountEmailEl = document.getElementById('service-account-email');
 
             // REPLACE THIS WITH YOUR CLOUD FUNCTION URL AFTER DEPLOYMENT
             const CLOUDFUNCTION_URL = "https://us-central1-kallogjeri-project-345114.cloudfunctions.net/generate-presentation";
 
             let selectedSlidesData = [];
+
+            // Fetches configuration from the backend, like the service account email,
+            // and displays it to the user. This is more robust than hardcoding it.
+            async function fetchAndDisplayConfig() {
+                if (CLOUDFUNCTION_URL === "YOUR_CLOUDFUNCTION_URL_HERE") {
+                    serviceAccountEmailEl.textContent = "[Set Cloud Function URL to fetch]";
+                    return;
+                }
+                try {
+                    const response = await fetch(CLOUDFUNCTION_URL, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ action: 'get_config' })
+                    });
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch config from backend.');
+                    }
+                    const config = await response.json();
+                    if (config.service_account_email) {
+                        serviceAccountEmailEl.textContent = config.service_account_email;
+                    } else {
+                        throw new Error('Service account email not found in config response.');
+                    }
+                } catch (error) {
+                    console.error("Error fetching config:", error);
+                    serviceAccountEmailEl.textContent = "[Could not be retrieved from backend]";
+                }
+            }
+
+            fetchAndDisplayConfig();
 
             // Core function to generate the presentation
             async function generateDeck() {
