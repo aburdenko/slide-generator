@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Presentation Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+        .loading-spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border-left-color: #4f46e5;
+            animation: spin 1s ease infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="p-6">
+
+    <div class="container bg-white p-8 rounded-2xl shadow-lg border border-gray-200">
+        <h1 class="text-3xl font-bold mb-4 text-gray-800">AI Presentation Generator</h1>
+        <p class="mb-6 text-gray-600">
+            This application uses a Google Cloud Function backend to generate a real, editable presentation deck in Google Slides based on your request.
+        </p>
+
+        <!-- Form for user input -->
+        <div class="mb-6 space-y-4">
+            <div>
+                <label for="request" class="block text-sm font-medium text-gray-700">Customer Request</label>
+                <textarea id="request" rows="6" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="e.g., An overview of the Google AI Agent Developer Ecosystem, including platform components, best practices, and Responsible AI considerations."></textarea>
+            </div>
+            <div>
+                <label for="folder-url" class="block text-sm font-medium text-gray-700">Google Drive Folder URL (Simulated)</label>
+                <input type="text" id="folder-url" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="https://drive.google.com/drive/folders/1jSqMJc0oIt5SmF5EJaMazhkyCsIfLWVm?usp=drive_link" readonly>
+            </div>
+            <div>
+                <label for="duration" class="block text-sm font-medium text-gray-700">Presentation Duration (Simulated)</label>
+                <input type="text" id="duration" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="1 hour" readonly>
+            </div>
+        </div>
+
+        <button id="generate-btn" class="w-full flex justify-center items-center py-3 px-6 border border-transparent text-sm font-medium rounded-xl shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all duration-200">
+            Generate Presentation
+            <div id="loading-indicator" class="hidden loading-spinner ml-2"></div>
+        </button>
+
+        <!-- Message/Output area -->
+        <div id="message-box" class="mt-6 p-4 rounded-xl border border-gray-300 bg-gray-50 hidden"></div>
+        <div id="output-box" class="mt-6 hidden">
+            <h2 class="text-xl font-semibold text-gray-800 mb-2">Generated Presentation</h2>
+            <div id="output-content" class="p-4 rounded-xl border border-indigo-400 bg-indigo-50"></div>
+            <button id="generate-notes-btn" class="mt-4 flex justify-center items-center py-3 px-6 border border-transparent text-sm font-medium rounded-xl shadow-sm text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 transition-all duration-200">
+                 ✨ Generate Speaker Notes
+                <div id="notes-loading-indicator" class="hidden loading-spinner ml-2"></div>
+            </button>
+        </div>
+        
+        <div id="notes-output-box" class="mt-6 hidden">
+            <h2 class="text-xl font-semibold text-gray-800 mb-2">Speaker Notes</h2>
+            <div id="notes-output-content" class="p-4 rounded-xl border border-purple-400 bg-purple-50"></div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const generateBtn = document.getElementById('generate-btn');
+            const generateNotesBtn = document.getElementById('generate-notes-btn');
+            const requestInput = document.getElementById('request');
+            const messageBox = document.getElementById('message-box');
+            const outputBox = document.getElementById('output-box');
+            const outputContent = document.getElementById('output-content');
+            const loadingIndicator = document.getElementById('loading-indicator');
+            const notesLoadingIndicator = document.getElementById('notes-loading-indicator');
+            const notesOutputBox = document.getElementById('notes-output-box');
+            const notesOutputContent = document.getElementById('notes-output-content');
+            const apiKey = ""; // Canvas will provide this key at runtime
+
+            // REPLACE THIS WITH YOUR CLOUD FUNCTION URL AFTER DEPLOYMENT
+            const CLOUDFUNCTION_URL = "YOUR_CLOUDFUNCTION_URL_HERE";
+
+            let selectedSlidesData = [];
+
+            // Core function to generate the presentation
+            async function generateDeck() {
+                const customerRequest = requestInput.value.trim();
+                const duration = document.getElementById('duration').value;
+
+                if (!customerRequest) {
+                    showMessage('Please enter a customer request to generate the presentation.', 'warning');
+                    return;
+                }
+                
+                if (CLOUDFUNCTION_URL === "YOUR_CLOUDFUNCTION_URL_HERE") {
+                    showMessage('Please replace the placeholder URL in the JavaScript code with your Cloud Function URL.', 'error');
+                    return;
+                }
+
+                // Show loading state
+                generateBtn.disabled = true;
+                loadingIndicator.classList.remove('hidden');
+                showMessage('Creating real presentation with Cloud Function...', 'info');
+                outputBox.classList.add('hidden');
+                notesOutputBox.classList.add('hidden');
+
+                try {
+                    const response = await fetch(CLOUDFUNCTION_URL, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            customer_request: customerRequest,
+                            duration: duration
+                        })
+                    });
+
+                    if (!response.ok) {
+                        const errorText = await response.text();
+                        throw new Error(`Backend Error: ${errorText}`);
+                    }
+                    
+                    const result = await response.json();
+                    
+                    selectedSlidesData = result.selected_slides;
+
+                    let outputHtml = `<p>✅ Your presentation has been successfully generated!</p>`;
+                    outputHtml += `<p class="mt-2">The AI agent selected the following slides for your deck:</p>`;
+                    outputHtml += `<ul class="list-disc list-inside mt-2 space-y-1">`;
+                    selectedSlidesData.forEach(slide => {
+                        outputHtml += `<li><strong>${slide.title}</strong></li>`;
+                    });
+                    outputHtml += `</ul>`;
+                    outputHtml += `<p class="mt-4"><a href="${result.presentation_url}" target="_blank" class="font-bold text-indigo-600 hover:text-indigo-800 transition-colors">View Your New Presentation Deck</a></p>`;
+
+                    outputContent.innerHTML = outputHtml;
+                    outputBox.classList.remove('hidden');
+                    showMessage('Presentation deck generated successfully! Click the link to view.', 'success');
+
+                } catch (error) {
+                    console.error("Error generating presentation:", error);
+                    showMessage(`An error occurred: ${error.message}. Please check the console for more details.`, 'error');
+                } finally {
+                    // Hide loading state
+                    generateBtn.disabled = false;
+                    loadingIndicator.classList.add('hidden');
+                }
+            }
+
+            // Function to generate speaker notes
+            async function generateSpeakerNotes() {
+                if (selectedSlidesData.length === 0) {
+                    showMessage('Please generate a presentation deck first.', 'warning');
+                    return;
+                }
+
+                // Show loading state for notes
+                generateNotesBtn.disabled = true;
+                notesLoadingIndicator.classList.remove('hidden');
+                notesOutputBox.classList.add('hidden');
+                showMessage('Generating speaker notes...', 'info');
+
+                try {
+                    const slidesText = selectedSlidesData.map(slide => `Slide Title: ${slide.title}\nSlide Content: ${slide.content}`).join('\n\n');
+
+                    const systemPrompt = `You are a public speaking coach. A user has a presentation with the following slides. Your task is to generate concise and conversational speaker notes for each slide. Focus on the key takeaways and provide guidance on how to present the information effectively. Use a friendly and encouraging tone.
+
+                                            Slides:
+                                            ${slidesText}
+                                            
+                                            Please format your response as a Markdown document with a top-level heading for each slide, followed by bullet points for the notes.`;
+
+                    const payload = {
+                        contents: [{ parts: [{ text: systemPrompt }] }],
+                        generationConfig: {
+                             responseMimeType: "text/markdown"
+                        }
+                    };
+
+                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) {
+                        const errorData = await response.json();
+                        throw new Error(`API Error: ${errorData.error.message}`);
+                    }
+
+                    const result = await response.json();
+                    const notesText = result.candidates?.[0]?.content?.parts?.[0]?.text;
+
+                    notesOutputContent.innerHTML = notesText.replace(/\n/g, '<br>'); // Simple Markdown to HTML conversion
+                    notesOutputBox.classList.remove('hidden');
+                    showMessage('Speaker notes generated successfully!', 'success');
+
+                } catch (error) {
+                    console.error("Error generating notes:", error);
+                    showMessage(`An error occurred while generating notes: ${error.message}.`, 'error');
+                } finally {
+                    generateNotesBtn.disabled = false;
+                    notesLoadingIndicator.classList.add('hidden');
+                }
+            }
+
+            // Function to display messages in the UI
+            function showMessage(message, type = 'info') {
+                messageBox.innerHTML = message;
+                messageBox.classList.remove('hidden', 'bg-red-100', 'border-red-400', 'bg-yellow-100', 'border-yellow-400', 'bg-green-100', 'border-green-400', 'bg-gray-50', 'border-gray-300');
+                if (type === 'error') {
+                    messageBox.classList.add('bg-red-100', 'border-red-400');
+                } else if (type === 'warning') {
+                    messageBox.classList.add('bg-yellow-100', 'border-yellow-400');
+                } else if (type === 'success') {
+                    messageBox.classList.add('bg-green-100', 'border-green-400');
+                } else {
+                    messageBox.classList.add('bg-gray-50', 'border-gray-300');
+                }
+            }
+
+            // Attach event listeners
+            generateBtn.addEventListener('click', generateDeck);
+            generateNotesBtn.addEventListener('click', generateSpeakerNotes);
+
+        });
+    </script>
+</body>
+</html>
