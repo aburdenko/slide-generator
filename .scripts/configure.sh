@@ -144,6 +144,32 @@ else
   echo "Please place 'service_account.json' in your project's root directory or update the path in configure.sh."
 fi
 
+# --- Create .env file for python-dotenv ---
+# This allows local development tools (like the functions-framework) to load
+# environment variables without needing to source this script every time.
+ENV_FILE=".env"
+echo "Creating/updating ${ENV_FILE} for local development..."
+
+# Use a temporary file to avoid issues, then move it into place.
+TEMP_ENV_FILE=$(mktemp)
+
+{
+  echo "PROJECT_ID=${PROJECT_ID}"
+  echo "FUNCTION_SERVICE_ACCOUNT=${FUNCTION_SERVICE_ACCOUNT}"
+  echo "REGION=${REGION}"
+  echo "LOG_NAME=${LOG_NAME}"
+  echo "DRIVE_SHARE_EMAIL=${DRIVE_SHARE_EMAIL}"
+  echo "GEMINI_MODEL_NAME=${GEMINI_MODEL_NAME}"
+  echo "JUDGEMENT_MODEL_NAME=${JUDGEMENT_MODEL_NAME}"
+  echo "EMBEDDING_MODEL_NAME=${EMBEDDING_MODEL_NAME}"
+  echo "SOURCE_GCS_BUCKET=${SOURCE_GCS_BUCKET}"
+  echo "STAGING_GCS_BUCKET=${STAGING_GCS_BUCKET}"
+  echo "INDEX_DISPLAY_NAME=${INDEX_DISPLAY_NAME}"
+  echo "INDEX_ENDPOINT_DISPLAY_NAME=${INDEX_ENDPOINT_DISPLAY_NAME}"
+  echo "GOOGLE_APPLICATION_CREDENTIALS=${GOOGLE_APPLICATION_CREDENTIALS}"
+} > "$TEMP_ENV_FILE"
+mv "$TEMP_ENV_FILE" "$ENV_FILE"
+
 # This POSIX-compliant check ensures the script is sourced, not executed.
 # (return 0 2>/dev/null) will succeed if sourced and fail if executed.
 if ! (return 0 2>/dev/null); then

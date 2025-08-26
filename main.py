@@ -1,4 +1,8 @@
 import functions_framework
+# Load environment variables from .env file for local development.
+# This should be at the very top of the file.
+from dotenv import load_dotenv
+load_dotenv()
 import json
 import logging
 import google.auth
@@ -475,3 +479,4 @@ def generate_presentation(request):
     except Exception as e:
         logging.error(f"An unexpected error occurred: {e}", exc_info=True)
         return (f"An unexpected error occurred: {e}", 500, headers)
+    

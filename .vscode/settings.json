@@ -1,3 +1,11 @@
 {
-    "git.ignoreLimitWarning": true
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "(main\\.py|\\.scripts/configure\\.sh|requirements\\.txt)$",
+                "isAsync": true,
+                "cmd": "bash .scripts/deploy.sh",                
+            }
+        ]
+    }
 }

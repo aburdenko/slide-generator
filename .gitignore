@@ -1,3 +1,11 @@
-.venv/
+# Python
 __pycache__/
+*.pyc
+.venv/
+
+# Environment variables
+.env
+
+# Service account keys
+service_account.json
 logs/

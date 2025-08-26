@@ -1,9 +1,12 @@
 #!/bin/bash
 # To test locally:
-# 1. Source the configuration to load environment variables:
+# 1. Run the configuration script once to generate the .env file and set up your gcloud config:
 #    source .scripts/configure.sh
-# 2. Run the local server in a separate terminal:
+#
+# 2. Install dependencies and run the local server in a separate terminal.
+#    The server will automatically load variables from the .env file.
 #    functions-framework --target=generate_presentation --port=8080 --debug
+#
 # 3. Run this script to send a test request.
 curl -X POST "http://localhost:8080" \
 -H "Content-Type: application/json" \
