@@ -12,6 +12,10 @@ gcloud config set project $PROJECT_ID
 # Get your project number
 PROJECT_NUMBER=$(gcloud projects describe $PROJECT_ID --format="value(projectNumber)")
 
+# The IAM service account the Cloud Function will run as when deployed.
+# This defaults to the project's Compute Engine service account.
+export FUNCTION_SERVICE_ACCOUNT="${PROJECT_NUMBER}-compute@developer.gserviceaccount.com"
+
 export REGION="us-central1"
 export LOG_NAME="agentspace_hcls_demo_log"
 
@@ -44,7 +48,10 @@ export INDEX_ENDPOINT_DISPLAY_NAME="agentspace_hcls_demo-vector-store-endpoint"
 
 
 # --- Google Credentials Setup ---
-SERVICE_ACCOUNT_KEY_FILE="$HOME/service_account.json" # Path points to the user's home directory
+
+# The service account key file should be in the root of the project directory.
+# This allows it to be packaged with the Cloud Function for deployment.
+SERVICE_ACCOUNT_KEY_FILE="../service_account.json"
 
 # --- Virtual Environment Setup ---
 if [ ! -d ".venv/python3.12" ]; then
@@ -125,16 +132,16 @@ echo "Activating environment './venv/python3.12'..."
 # Ensure dependencies are installed/updated every time the script is sourced.
 # This prevents ModuleNotFoundError if requirements.txt changes after the
 # virtual environment has been created.
-echo "Ensuring dependencies from .scripts/requirements.txt are installed..."
+echo "Ensuring dependencies from requirements.txt are installed..."
  # Use the full path to the venv pip to ensure we're installing in the correct environment.
-./.venv/python3.12/bin/pip install -r .scripts/requirements.txt > /dev/null
+./.venv/python3.12/bin/pip install -r requirements.txt > /dev/null
 
 if [ -f "$SERVICE_ACCOUNT_KEY_FILE" ]; then
   echo "Service account key found. Exporting GOOGLE_APPLICATION_CREDENTIALS."
   export GOOGLE_APPLICATION_CREDENTIALS="$SERVICE_ACCOUNT_KEY_FILE"
 else
-  echo "Error: Service account key file not found at '$SERVICE_ACCOUNT_KEY_FILE'"
-  echo "Please place 'service_account.json' in your home directory ($HOME) or update the path in configure.sh."
+  echo "Error: Service account key file not found at '$PWD/$SERVICE_ACCOUNT_KEY_FILE'"
+  echo "Please place 'service_account.json' in your project's root directory or update the path in configure.sh."
 fi
 
 # This POSIX-compliant check ensures the script is sourced, not executed.

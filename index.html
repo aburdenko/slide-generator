@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Presentation Generator</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
@@ -43,15 +44,33 @@
         <div class="mb-6 space-y-4">
             <div>
                 <label for="request" class="block text-sm font-medium text-gray-700">Customer Request</label>
-                <textarea id="request" rows="6" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="e.g., An overview of the Google AI Agent Developer Ecosystem, including platform components, best practices, and Responsible AI considerations."></textarea>
+                <textarea id="request" rows="6" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="e.g., An overview of the Google AI Agent Developer Ecosystem, including platform components, best practices, and Responsible AI considerations.">1. An overview of the Google AI Agent Developer Ecosystem. 2. A breakdown of the platform components—ADK, Agent Engine, Agent Builder, Agent Space—and guidance on when to use each. 3. Availability of training resources or tutorials on the Google Skills Learning Platform. 4. Recommended best practices and implementation guidelines. 5. Built-in Responsible AI capabilities within the platform. 6. Observability and security considerations.</textarea>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                 <div>
+                    <label for="slide-title" class="block text-sm font-medium text-gray-700">Presentation Title</label>
+                    <input type="text" id="slide-title" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="Google AI Agent Developer Ecosystem">
+                </div>
+                <div>
+                    <label for="meeting-date" class="block text-sm font-medium text-gray-700">Meeting Date</label>
+                    <input type="date" id="meeting-date" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="2025-09-03">
+                </div>
             </div>
             <div>
-                <label for="folder-url" class="block text-sm font-medium text-gray-700">Google Drive Folder URL (Simulated)</label>
-                <input type="text" id="folder-url" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="https://drive.google.com/drive/folders/1jSqMJc0oIt5SmF5EJaMazhkyCsIfLWVm?usp=drive_link" readonly>
+                <label for="folder-url" class="block text-sm font-medium text-gray-700">Source Slides Folder URL</label>
+                <input type="text" id="folder-url" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="https://drive.google.com/drive/folders/1jSqMJc0oIt5SmF5EJaMazhkyCsIfLWVm?usp=drive_link">
             </div>
             <div>
-                <label for="duration" class="block text-sm font-medium text-gray-700">Presentation Duration (Simulated)</label>
-                <input type="text" id="duration" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="1 hour" readonly>
+                <label for="slides-to-update" class="block text-sm font-medium text-gray-700">Existing Presentation URL to Update (Optional)</label>
+                <input type="text" id="slides-to-update" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Leave blank to create a new presentation" value="">
+            </div>
+            <div>
+                <label for="duration" class="block text-sm font-medium text-gray-700">Presentation Duration</label>
+                <input type="text" id="duration" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="1 hour">
+            </div>
+            <div>
+                <label for="user-account" class="block text-sm font-medium text-gray-700">User Account to Share With</label>
+                <input type="email" id="user-account" class="mt-1 block w-full px-3 py-2 rounded-xl border border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" value="aburdenko@google.com">
             </div>
         </div>
 
@@ -61,7 +80,7 @@
         </button>
 
         <!-- Message/Output area -->
-        <div id="message-box" class="mt-6 p-4 rounded-xl border border-gray-300 bg-gray-50 hidden"></div>
+        <textarea id="message-box" rows="3" class="mt-6 block w-full px-3 py-2 rounded-xl border shadow-sm sm:text-sm hidden" readonly></textarea>
         <div id="output-box" class="mt-6 hidden">
             <h2 class="text-xl font-semibold text-gray-800 mb-2">Generated Presentation</h2>
             <div id="output-content" class="p-4 rounded-xl border border-indigo-400 bg-indigo-50"></div>
@@ -89,10 +108,9 @@
             const notesLoadingIndicator = document.getElementById('notes-loading-indicator');
             const notesOutputBox = document.getElementById('notes-output-box');
             const notesOutputContent = document.getElementById('notes-output-content');
-            const apiKey = ""; // Canvas will provide this key at runtime
 
             // REPLACE THIS WITH YOUR CLOUD FUNCTION URL AFTER DEPLOYMENT
-            const CLOUDFUNCTION_URL = "YOUR_CLOUDFUNCTION_URL_HERE";
+            const CLOUDFUNCTION_URL = "https://us-central1-kallogjeri-project-345114.cloudfunctions.net/generate-presentation";
 
             let selectedSlidesData = [];
 
@@ -100,6 +118,11 @@
             async function generateDeck() {
                 const customerRequest = requestInput.value.trim();
                 const duration = document.getElementById('duration').value;
+                const sourceFolderUrl = document.getElementById('folder-url').value;
+                const slideTitle = document.getElementById('slide-title').value;
+                const meetingDate = document.getElementById('meeting-date').value;
+                const slidesToUpdate = document.getElementById('slides-to-update').value;
+                const userAccount = document.getElementById('user-account').value;
 
                 if (!customerRequest) {
                     showMessage('Please enter a customer request to generate the presentation.', 'warning');
@@ -124,7 +147,12 @@
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
                             customer_request: customerRequest,
-                            duration: duration
+                            slide_title: slideTitle,
+                            meeting_date: meetingDate,
+                            duration: duration,
+                            source_folder_url: sourceFolderUrl,
+                            slides_to_update: slidesToUpdate,
+                            user_account: userAccount
                         })
                     });
 
@@ -174,39 +202,28 @@
                 showMessage('Generating speaker notes...', 'info');
 
                 try {
-                    const slidesText = selectedSlidesData.map(slide => `Slide Title: ${slide.title}\nSlide Content: ${slide.content}`).join('\n\n');
-
-                    const systemPrompt = `You are a public speaking coach. A user has a presentation with the following slides. Your task is to generate concise and conversational speaker notes for each slide. Focus on the key takeaways and provide guidance on how to present the information effectively. Use a friendly and encouraging tone.
-
-                                            Slides:
-                                            ${slidesText}
-                                            
-                                            Please format your response as a Markdown document with a top-level heading for each slide, followed by bullet points for the notes.`;
-
-                    const payload = {
-                        contents: [{ parts: [{ text: systemPrompt }] }],
-                        generationConfig: {
-                             responseMimeType: "text/markdown"
-                        }
-                    };
-
-                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
-
-                    const response = await fetch(apiUrl, {
+                    // The speaker notes generation is now handled by our secure backend function.
+                    const response = await fetch(CLOUDFUNCTION_URL, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify(payload)
+                        body: JSON.stringify({
+                            action: 'generate_speaker_notes',
+                            slides_data: selectedSlidesData
+                        })
                     });
 
                     if (!response.ok) {
-                        const errorData = await response.json();
-                        throw new Error(`API Error: ${errorData.error.message}`);
+                        const errorText = await response.text();
+                        throw new Error(`Backend Error: ${errorText}`);
                     }
 
                     const result = await response.json();
-                    const notesText = result.candidates?.[0]?.content?.parts?.[0]?.text;
+                    const notesText = result.notes;
 
-                    notesOutputContent.innerHTML = notesText.replace(/\n/g, '<br>'); // Simple Markdown to HTML conversion
+                    if (notesText) {
+                        // Use the marked.js library to convert Markdown to HTML
+                        notesOutputContent.innerHTML = marked.parse(notesText);
+                    }
                     notesOutputBox.classList.remove('hidden');
                     showMessage('Speaker notes generated successfully!', 'success');
 
@@ -221,17 +238,31 @@
 
             // Function to display messages in the UI
             function showMessage(message, type = 'info') {
-                messageBox.innerHTML = message;
-                messageBox.classList.remove('hidden', 'bg-red-100', 'border-red-400', 'bg-yellow-100', 'border-yellow-400', 'bg-green-100', 'border-green-400', 'bg-gray-50', 'border-gray-300');
+                // A textarea can't render HTML, so we strip any potential HTML tags
+                // from the message to display it cleanly. This is also a security best practice.
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = message;
+                messageBox.value = tempDiv.textContent || tempDiv.innerText || "";
+
+                // Reset all color and visibility classes
+                messageBox.classList.remove('hidden', 
+                    'bg-red-100', 'border-red-400', 'text-red-800',
+                    'bg-yellow-100', 'border-yellow-400', 'text-yellow-800',
+                    'bg-green-100', 'border-green-400', 'text-green-800',
+                    'bg-gray-50', 'border-gray-300', 'text-gray-800'
+                );
+
+                // Apply new classes based on message type for better readability
                 if (type === 'error') {
-                    messageBox.classList.add('bg-red-100', 'border-red-400');
+                    messageBox.classList.add('bg-red-100', 'border-red-400', 'text-red-800');
                 } else if (type === 'warning') {
-                    messageBox.classList.add('bg-yellow-100', 'border-yellow-400');
+                    messageBox.classList.add('bg-yellow-100', 'border-yellow-400', 'text-yellow-800');
                 } else if (type === 'success') {
-                    messageBox.classList.add('bg-green-100', 'border-green-400');
+                    messageBox.classList.add('bg-green-100', 'border-green-400', 'text-green-800');
                 } else {
-                    messageBox.classList.add('bg-gray-50', 'border-gray-300');
+                    messageBox.classList.add('bg-gray-50', 'border-gray-300', 'text-gray-800');
                 }
+                messageBox.classList.remove('hidden');
             }
 
             // Attach event listeners

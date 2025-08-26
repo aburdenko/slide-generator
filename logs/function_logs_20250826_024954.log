@@ -1,0 +1,1920 @@
+---
+insertId:                                      68ad20c40007e5b26f8fcc52
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   ]
+timestamp:                                     2025-08-26T02:49:40.517554Z
+---
+insertId:                                      68ad20c40007e5af12d53f51
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   }
+timestamp:                                     2025-08-26T02:49:40.517551Z
+---
+insertId:                                      68ad20c40007e5acd10a1e9f
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  value: \"google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent\""
+timestamp:                                     2025-08-26T02:49:40.517548Z
+---
+insertId:                                      68ad20c40007e5a8f08325b6
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  key: \"method\""
+timestamp:                                     2025-08-26T02:49:40.517544Z
+---
+insertId:                                      68ad20c40007e5a6b83f51a3
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   metadata {
+timestamp:                                     2025-08-26T02:49:40.517542Z
+---
+insertId:                                      68ad20c40007e5a1055fd8da
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   }
+timestamp:                                     2025-08-26T02:49:40.517537Z
+---
+insertId:                                      68ad20c40007e59ee77345f0
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  value: \"generativelanguage.googleapis.com\""
+timestamp:                                     2025-08-26T02:49:40.517534Z
+---
+insertId:                                      68ad20c40007e59a5ce32406
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  key: \"service\""
+timestamp:                                     2025-08-26T02:49:40.517530Z
+---
+insertId:                                      68ad20c40007e5975d44e1a9
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   metadata {
+timestamp:                                     2025-08-26T02:49:40.517527Z
+---
+insertId:                                      68ad20c40007e594563493c5
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   domain: "googleapis.com"
+timestamp:                                     2025-08-26T02:49:40.517524Z
+---
+insertId:                                      68ad20c40007e590c37f8f6d
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   google.api_core.exceptions.PermissionDenied: 403 Request had insufficient authentication scopes. [reason: "ACCESS_TOKEN_SCOPE_INSUFFICIENT"
+timestamp:                                     2025-08-26T02:49:40.517520Z
+---
+insertId:                                      68ad20c40007e58b476c5bb1
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    raise exceptions.from_grpc_error(exc) from exc"
+timestamp:                                     2025-08-26T02:49:40.517515Z
+---
+insertId:                                      68ad20c40007e58808139c1b
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/google/api_core/grpc_helpers.py\", line 78, in error_remapped_callable"
+timestamp:                                     2025-08-26T02:49:40.517512Z
+---
+insertId:                                      68ad20c40007e585aea44e87
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "           ^^^^^^^^^^^^^^^^^^^^^"
+timestamp:                                     2025-08-26T02:49:40.517509Z
+---
+insertId:                                      68ad20c40007e58198fd0443
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    return func(*args, **kwargs)"
+timestamp:                                     2025-08-26T02:49:40.517505Z
+---
+insertId:                                      68ad20c40007e57e4bf4efe7
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/google/api_core/timeout.py\", line 130, in func_with_timeout"
+timestamp:                                     2025-08-26T02:49:40.517502Z
+---
+insertId:                                      68ad20c40007e57ad6c7c405
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "             ^^^^^^^^"
+timestamp:                                     2025-08-26T02:49:40.517498Z
+---
+insertId:                                      68ad20c40007e57795adda06
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    result = target()"
+timestamp:                                     2025-08-26T02:49:40.517495Z
+---
+insertId:                                      68ad20c40007e5741cb62d84
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py\", line 147, in retry_target"
+timestamp:                                     2025-08-26T02:49:40.517492Z
+---
+insertId:                                      68ad20c40007e5703ac3eac3
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    raise final_exc from source_exc"
+timestamp:                                     2025-08-26T02:49:40.517488Z
+---
+insertId:                                      68ad20c40007e56d476e155c
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/google/api_core/retry/retry_base.py\", line 214, in _retry_error_helper"
+timestamp:                                     2025-08-26T02:49:40.517485Z
+---
+insertId:                                      68ad20c40007e5694c72967e
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "                 ^^^^^^^^^^^^^^^^^^^^"
+timestamp:                                     2025-08-26T02:49:40.517481Z
+---
+insertId:                                      68ad20c40007e565f3d8697c
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    next_sleep = _retry_error_helper("
+timestamp:                                     2025-08-26T02:49:40.517477Z
+---
+insertId:                                      68ad20c40007e56109b6f786
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py\", line 156, in retry_target"
+timestamp:                                     2025-08-26T02:49:40.517473Z
+---
+insertId:                                      68ad20c40007e55d46ca1476
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "           ^^^^^^^^^^^^^"
+timestamp:                                     2025-08-26T02:49:40.517469Z
+---
+insertId:                                      68ad20c40007e55a1af43202
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    return retry_target("
+timestamp:                                     2025-08-26T02:49:40.517466Z
+---
+insertId:                                      68ad20c40007e5550ddfedf7
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py\", line 294, in retry_wrapped_func"
+timestamp:                                     2025-08-26T02:49:40.517461Z
+---
+insertId:                                      68ad20c40007e55255bf5ba1
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+timestamp:                                     2025-08-26T02:49:40.517458Z
+---
+insertId:                                      68ad20c40007e54e19b93eb5
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    return wrapped_func(*args, **kwargs)"
+timestamp:                                     2025-08-26T02:49:40.517454Z
+---
+insertId:                                      68ad20c40007e54ba65dcd38
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py\", line 131, in __call__"
+timestamp:                                     2025-08-26T02:49:40.517451Z
+---
+insertId:                                      68ad20c40007e54856f5a53c
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "               ^^^^"
+timestamp:                                     2025-08-26T02:49:40.517448Z
+---
+insertId:                                      68ad20c40007e5445f0356f2
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    response = rpc("
+timestamp:                                     2025-08-26T02:49:40.517444Z
+---
+insertId:                                      68ad20c40007e5418d334fbb
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py\", line 812, in generate_content"
+timestamp:                                     2025-08-26T02:49:40.517441Z
+---
+insertId:                                      68ad20c40007e53d7aa5c654
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+timestamp:                                     2025-08-26T02:49:40.517437Z
+---
+insertId:                                      68ad20c40007e5397b905a39
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    response = self._client.generate_content("
+timestamp:                                     2025-08-26T02:49:40.517433Z
+---
+insertId:                                      68ad20c40007e536a802ecbd
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/google/generativeai/generative_models.py\", line 258, in generate_content"
+timestamp:                                     2025-08-26T02:49:40.517430Z
+---
+insertId:                                      68ad20c40007e532e89d3f0c
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+timestamp:                                     2025-08-26T02:49:40.517426Z
+---
+errorGroups[0].id:                             CJz499mg39LAcQ
+insertId:                                      68ad20c40007e52fb5db4e85
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.854564231Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+severity:                                      ERROR
+textPayload:                                   "Traceback (most recent call last):\n  File \"/workspace/main.py\", line 182, in generate_presentation\n    gemini_response = gemini_model.generate_content(prompt)"
+timestamp:                                     2025-08-26T02:49:40.517423Z
+---
+insertId:                                      68ad20c40007e51c4bb3576c
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.519883800Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   ]
+timestamp:                                     2025-08-26T02:49:40.517404Z
+---
+insertId:                                      68ad20c40007e519d2772cb7
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.519883800Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   }
+timestamp:                                     2025-08-26T02:49:40.517401Z
+---
+insertId:                                      68ad20c40007e51507c0ad6b
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.519883800Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  value: \"google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent\""
+timestamp:                                     2025-08-26T02:49:40.517397Z
+---
+insertId:                                      68ad20c40007e512f2a8f058
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.519883800Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  key: \"method\""
+timestamp:                                     2025-08-26T02:49:40.517394Z
+---
+insertId:                                      68ad20c40007e50ec0d91c98
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.519883800Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   metadata {
+timestamp:                                     2025-08-26T02:49:40.517390Z
+---
+insertId:                                      68ad20c40007e50b81293836
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.519883800Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   }
+timestamp:                                     2025-08-26T02:49:40.517387Z
+---
+insertId:                                      68ad20c40007e507183f57a7
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.519883800Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  value: \"generativelanguage.googleapis.com\""
+timestamp:                                     2025-08-26T02:49:40.517383Z
+---
+insertId:                                      68ad20c40007e50314c01f8d
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.519883800Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  key: \"service\""
+timestamp:                                     2025-08-26T02:49:40.517379Z
+---
+insertId:                                      68ad20c40007e4fe5125b0b4
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.519883800Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   metadata {
+timestamp:                                     2025-08-26T02:49:40.517374Z
+---
+insertId:                                      68ad20c40007e4faf5da3d6f
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.519883800Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   domain: "googleapis.com"
+timestamp:                                     2025-08-26T02:49:40.517370Z
+---
+insertId:                                      68ad20c40007e4e076a250af
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:40.519883800Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   ERROR:root:An unexpected error occurred: 403 Request had insufficient authentication scopes. [reason: "ACCESS_TOKEN_SCOPE_INSUFFICIENT"
+timestamp:                                     2025-08-26T02:49:40.517344Z
+---
+insertId:                                      68ad20ab0006f1b7092fc3cb
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:15.531918768Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   WARNING:root:Could not resolve shortcut 'Agentic Strategy, Ecosystems, and Value - Pitch Deck' because the target file (ID: 1Gcm_xZTGY4pFxSmwvhPrWNtoMEvK3kRTM-b3c_9EXR8) was not found. This usually means the service account does not have permission to view the original file. Please share the original presentation with this function's service account email.
+timestamp:                                     2025-08-26T02:49:15.455095Z
+---
+insertId:                                      68ad20ab0005224c2ea7106b
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:15.531918768Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   WARNING:root:Could not resolve shortcut 'Build AI agents with Google Cloud' because the target file (ID: 1hs094nj5sV1suKPmTF7rJng0K6GTblqciQpn9y7u7Gs) was not found. This usually means the service account does not have permission to view the original file. Please share the original presentation with this function's service account email.
+timestamp:                                     2025-08-26T02:49:15.336460Z
+---
+insertId:                                      68ad20aa000ed7749fa3e926
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:15.195269912Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   WARNING:root:Could not resolve shortcut 'Google Cloud Learning paths (go/cloudlearningpaths)' because the target file (ID: 1l9KZfMX8OqVzZq4z6xOldxOzQskxBjxe7yGDLeiPPVM) was not found. This usually means the service account does not have permission to view the original file. Please share the original presentation with this function's service account email.
+timestamp:                                     2025-08-26T02:49:14.972660Z
+---
+insertId:                                      68ad20a9000b3a94fadcf206
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:13.861820934Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   WARNING:root:Could not resolve shortcut '[7] Scale and evaluate AI agents | Demo Slides' because the target file (ID: 1_NLW3NxJERSF0zmNICaQWWGN9FJ8IKHjAPkec1lvGK8) was not found. This usually means the service account does not have permission to view the original file. Please share the original presentation with this function's service account email.
+timestamp:                                     2025-08-26T02:49:13.735892Z
+---
+insertId:                                      68ad20a90002f2a00f967ecf
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:49:13.197906074Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   WARNING:root:Could not resolve shortcut '🤖 go/agentsdeck - Slides for go/agentsforall [External]' because the target file (ID: 1QCXlXXkZWPCz-6Cl7OfVpEEp9HwDWzBh0fMzu_HRxww) was not found. This usually means the service account does not have permission to view the original file. Please share the original presentation with this function's service account email.
+timestamp:                                     2025-08-26T02:49:13.193184Z
+---
+httpRequest.latency:                     28.204247506s
+httpRequest.protocol:                    HTTP/1.1
+httpRequest.referer:                     https://827026108-atari-embeds.googleusercontent.com/
+httpRequest.remoteIp:                    209.6.147.61
+httpRequest.requestMethod:               POST
+httpRequest.requestSize:                 1568
+httpRequest.requestUrl:                  https://us-central1-kallogjeri-project-345114.cloudfunctions.net/generate-presentation
+httpRequest.responseSize:                494
+httpRequest.serverIp:                    216.239.36.54
+httpRequest.status:                      500
+httpRequest.userAgent:                   Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+insertId:                                68ad20c40007ebb78852145f
+labels.goog-drz-cloudfunctions-id:       generate-presentation
+labels.goog-drz-cloudfunctions-location: us-central1
+labels.goog-managed-by:                  cloudfunctions
+labels.instanceId:                       0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+logName:                                 projects/kallogjeri-project-345114/logs/run.googleapis.com%2Frequests
+receiveTimestamp:                        2025-08-26T02:49:40.521727484Z
+resource.labels.configuration_name:      generate-presentation
+resource.labels.location:                us-central1
+resource.labels.project_id:              kallogjeri-project-345114
+resource.labels.revision_name:           generate-presentation-00012-goq
+resource.labels.service_name:            generate-presentation
+resource.type:                           cloud_run_revision
+severity:                                ERROR
+spanId:                                  c798d35d767b2c56
+timestamp:                               2025-08-26T02:49:12.302257Z
+trace:                                   projects/kallogjeri-project-345114/traces/8deac67c2002631e2d187ae5211ffeea
+traceSampled:                            True
+---
+insertId:                                                                                            l6offdq5au
+logName:                                                                                             projects/kallogjeri-project-345114/logs/cloudaudit.googleapis.com%2Fsystem_event
+protoPayload.@type:                                                                                  type.googleapis.com/google.cloud.audit.AuditLog
+protoPayload.methodName:                                                                             /InternalServices.ReplaceInternalService
+protoPayload.resourceName:                                                                           namespaces/kallogjeri-project-345114/services/generate-presentation
+protoPayload.response.@type:                                                                         type.googleapis.com/google.cloud.run.v1.Service
+protoPayload.response.apiVersion:                                                                    serving.knative.dev/v1
+protoPayload.response.kind:                                                                          Service
+protoPayload.response.metadata.annotations.cloudfunctions.googleapis.com/function-id:                generate-presentation
+protoPayload.response.metadata.annotations.run.googleapis.com/build-base-image:                      us-central1-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312
+protoPayload.response.metadata.annotations.run.googleapis.com/build-enable-automatic-updates:        true
+protoPayload.response.metadata.annotations.run.googleapis.com/build-function-target:                 generate_presentation
+protoPayload.response.metadata.annotations.run.googleapis.com/build-image-uri:                       us-central1-docker.pkg.dev/kallogjeri-project-345114/gcf-artifacts/kallogjeri--project--345114__us--central1__generate--presentation:version_1
+protoPayload.response.metadata.annotations.run.googleapis.com/build-name:                            projects/273872083706/locations/us-central1/builds/1a100a5a-87ae-4ff8-a7aa-31524fb7f24b
+protoPayload.response.metadata.annotations.run.googleapis.com/build-source-location:                 gs://gcf-v2-sources-273872083706-us-central1/generate-presentation/function-source.zip#1756176487549467
+protoPayload.response.metadata.annotations.run.googleapis.com/client-name:                           cloudfunctions
+protoPayload.response.metadata.annotations.run.googleapis.com/custom-audiences:                      ["https://us-central1-kallogjeri-project-345114.cloudfunctions.net/generate-presentation"]
+protoPayload.response.metadata.annotations.run.googleapis.com/ingress:                               all
+protoPayload.response.metadata.annotations.run.googleapis.com/ingress-status:                        all
+protoPayload.response.metadata.annotations.run.googleapis.com/operation-id:                          cebc953c-6aa9-4577-bd6b-73b21bafa7de
+protoPayload.response.metadata.annotations.run.googleapis.com/urls:                                  ["https://generate-presentation-273872083706.us-central1.run.app","https://us-central1-kallogjeri-project-345114.cloudfunctions.net/generate-presentation","https://generate-presentation-picdbggbya-uc.a.run.app"]
+protoPayload.response.metadata.annotations.serving.knative.dev/creator:                              service-273872083706@gcf-admin-robot.iam.gserviceaccount.com
+protoPayload.response.metadata.annotations.serving.knative.dev/lastModifier:                         service-273872083706@gcf-admin-robot.iam.gserviceaccount.com
+protoPayload.response.metadata.creationTimestamp:                                                    2025-08-26T00:56:34.504635Z
+protoPayload.response.metadata.generation:                                                           12
+protoPayload.response.metadata.labels.cloud.googleapis.com/location:                                 us-central1
+protoPayload.response.metadata.labels.goog-cloudfunctions-runtime:                                   python312
+protoPayload.response.metadata.labels.goog-drz-cloudfunctions-id:                                    generate-presentation
+protoPayload.response.metadata.labels.goog-drz-cloudfunctions-location:                              us-central1
+protoPayload.response.metadata.labels.goog-managed-by:                                               cloudfunctions
+protoPayload.response.metadata.name:                                                                 generate-presentation
+protoPayload.response.metadata.namespace:                                                            273872083706
+protoPayload.response.metadata.resourceVersion:                                                      AAY9O7ZlZSs
+protoPayload.response.metadata.selfLink:                                                             /apis/serving.knative.dev/v1/namespaces/273872083706/services/generate-presentation
+protoPayload.response.metadata.uid:                                                                  03979242-d921-4e59-ac52-179eb178e7b8
+protoPayload.response.spec.template.metadata.annotations.autoscaling.knative.dev/maxScale:           100
+protoPayload.response.spec.template.metadata.annotations.cloudfunctions.googleapis.com/trigger-type: HTTP_TRIGGER
+protoPayload.response.spec.template.metadata.annotations.run.googleapis.com/base-images:             {"worker":"us-central1-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312"}
+protoPayload.response.spec.template.metadata.annotations.run.googleapis.com/client-name:             cloudfunctions
+protoPayload.response.spec.template.metadata.annotations.run.googleapis.com/startup-cpu-boost:       true
+protoPayload.response.spec.template.metadata.labels.goog-drz-cloudfunctions-id:                      generate-presentation
+protoPayload.response.spec.template.metadata.labels.goog-drz-cloudfunctions-location:                us-central1
+protoPayload.response.spec.template.metadata.labels.run.googleapis.com/startupProbeType:             Default
+protoPayload.response.spec.template.metadata.name:                                                   generate-presentation-00012-goq
+protoPayload.response.spec.template.spec.containerConcurrency:                                       1
+protoPayload.response.spec.template.spec.containers[0].env[0].name:                                  DRIVE_SHARE_EMAIL
+protoPayload.response.spec.template.spec.containers[0].env[0].value:                                 aburdenko@google.com
+protoPayload.response.spec.template.spec.containers[0].env[1].name:                                  GEMINI_MODEL_NAME
+protoPayload.response.spec.template.spec.containers[0].env[1].value:                                 gemini-2.5-pro
+protoPayload.response.spec.template.spec.containers[0].env[2].name:                                  LOG_EXECUTION_ID
+protoPayload.response.spec.template.spec.containers[0].env[2].value:                                 true
+protoPayload.response.spec.template.spec.containers[0].image:                                        us-central1-docker.pkg.dev/kallogjeri-project-345114/gcf-artifacts/kallogjeri--project--345114__us--central1__generate--presentation:version_1
+protoPayload.response.spec.template.spec.containers[0].name:                                         worker
+protoPayload.response.spec.template.spec.containers[0].ports[0].containerPort:                       8080
+protoPayload.response.spec.template.spec.containers[0].ports[0].name:                                http1
+protoPayload.response.spec.template.spec.containers[0].resources.limits.cpu:                         0.5833
+protoPayload.response.spec.template.spec.containers[0].resources.limits.memory:                      1Gi
+protoPayload.response.spec.template.spec.containers[0].startupProbe.failureThreshold:                1
+protoPayload.response.spec.template.spec.containers[0].startupProbe.periodSeconds:                   240
+protoPayload.response.spec.template.spec.containers[0].startupProbe.tcpSocket.port:                  8080
+protoPayload.response.spec.template.spec.containers[0].startupProbe.timeoutSeconds:                  240
+protoPayload.response.spec.template.spec.runtimeClassName:                                           run.googleapis.com/linux-base-image-update
+protoPayload.response.spec.template.spec.serviceAccountName:                                         273872083706-compute@developer.gserviceaccount.com
+protoPayload.response.spec.template.spec.timeoutSeconds:                                             60
+protoPayload.response.spec.traffic[0].latestRevision:                                                True
+protoPayload.response.spec.traffic[0].percent:                                                       100
+protoPayload.response.status.address.url:                                                            https://generate-presentation-picdbggbya-uc.a.run.app
+protoPayload.response.status.conditions[0].lastTransitionTime:                                       2025-08-26T02:48:52.727083Z
+protoPayload.response.status.conditions[0].status:                                                   True
+protoPayload.response.status.conditions[0].type:                                                     Ready
+protoPayload.response.status.conditions[1].lastTransitionTime:                                       2025-08-26T02:48:51.396474Z
+protoPayload.response.status.conditions[1].status:                                                   True
+protoPayload.response.status.conditions[1].type:                                                     ConfigurationsReady
+protoPayload.response.status.conditions[2].lastTransitionTime:                                       2025-08-26T02:48:52.669767Z
+protoPayload.response.status.conditions[2].status:                                                   True
+protoPayload.response.status.conditions[2].type:                                                     RoutesReady
+protoPayload.response.status.latestCreatedRevisionName:                                              generate-presentation-00012-goq
+protoPayload.response.status.latestReadyRevisionName:                                                generate-presentation-00012-goq
+protoPayload.response.status.observedGeneration:                                                     12
+protoPayload.response.status.traffic[0].latestRevision:                                              True
+protoPayload.response.status.traffic[0].percent:                                                     100
+protoPayload.response.status.traffic[0].revisionName:                                                generate-presentation-00012-goq
+protoPayload.response.status.url:                                                                    https://generate-presentation-picdbggbya-uc.a.run.app
+protoPayload.serviceName:                                                                            run.googleapis.com
+protoPayload.status.message:                                                                         Ready condition status changed to True for Service generate-presentation.
+receiveTimestamp:                                                                                    2025-08-26T02:48:53.620560570Z
+resource.labels.configuration_name:                                                                  
+resource.labels.location:                                                                            us-central1
+resource.labels.project_id:                                                                          kallogjeri-project-345114
+resource.labels.revision_name:                                                                       
+resource.labels.service_name:                                                                        generate-presentation
+resource.type:                                                                                       cloud_run_revision
+severity:                                                                                            INFO
+timestamp:                                                                                           2025-08-26T02:48:52.745188Z
+---
+insertId:                                                                              g3erhze17kr4
+logName:                                                                               projects/kallogjeri-project-345114/logs/cloudaudit.googleapis.com%2Fsystem_event
+protoPayload.@type:                                                                    type.googleapis.com/google.cloud.audit.AuditLog
+protoPayload.methodName:                                                               /InternalServices.ReplaceInternalService
+protoPayload.resourceName:                                                             namespaces/kallogjeri-project-345114/revisions/generate-presentation-00012-goq
+protoPayload.response.@type:                                                           type.googleapis.com/google.cloud.run.v1.Revision
+protoPayload.response.apiVersion:                                                      serving.knative.dev/v1
+protoPayload.response.kind:                                                            Revision
+protoPayload.response.metadata.annotations.autoscaling.knative.dev/maxScale:           100
+protoPayload.response.metadata.annotations.cloudfunctions.googleapis.com/trigger-type: HTTP_TRIGGER
+protoPayload.response.metadata.annotations.run.googleapis.com/base-images:             {"worker":"us-central1-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312"}
+protoPayload.response.metadata.annotations.run.googleapis.com/build-function-target:   {"worker":"generate_presentation"}
+protoPayload.response.metadata.annotations.run.googleapis.com/build-id:                {"worker":"1a100a5a-87ae-4ff8-a7aa-31524fb7f24b"}
+protoPayload.response.metadata.annotations.run.googleapis.com/build-source-location:   {"worker":"gs://gcf-v2-sources-273872083706-us-central1/generate-presentation/function-source.zip#1756176487549467"}
+protoPayload.response.metadata.annotations.run.googleapis.com/client-name:             cloudfunctions
+protoPayload.response.metadata.annotations.run.googleapis.com/operation-id:            cebc953c-6aa9-4577-bd6b-73b21bafa7de
+protoPayload.response.metadata.annotations.run.googleapis.com/startup-cpu-boost:       true
+protoPayload.response.metadata.annotations.serving.knative.dev/creator:                service-273872083706@gcf-admin-robot.iam.gserviceaccount.com
+protoPayload.response.metadata.creationTimestamp:                                      2025-08-26T02:48:43.045917Z
+protoPayload.response.metadata.generation:                                             1
+protoPayload.response.metadata.labels.cloud.googleapis.com/location:                   us-central1
+protoPayload.response.metadata.labels.goog-cloudfunctions-runtime:                     python312
+protoPayload.response.metadata.labels.goog-drz-cloudfunctions-id:                      generate-presentation
+protoPayload.response.metadata.labels.goog-drz-cloudfunctions-location:                us-central1
+protoPayload.response.metadata.labels.goog-managed-by:                                 cloudfunctions
+protoPayload.response.metadata.labels.run.googleapis.com/startupProbeType:             Default
+protoPayload.response.metadata.labels.serving.knative.dev/configuration:               generate-presentation
+protoPayload.response.metadata.labels.serving.knative.dev/configurationGeneration:     12
+protoPayload.response.metadata.labels.serving.knative.dev/route:                       generate-presentation
+protoPayload.response.metadata.labels.serving.knative.dev/service:                     generate-presentation
+protoPayload.response.metadata.labels.serving.knative.dev/serviceUid:                  03979242-d921-4e59-ac52-179eb178e7b8
+protoPayload.response.metadata.name:                                                   generate-presentation-00012-goq
+protoPayload.response.metadata.namespace:                                              273872083706
+protoPayload.response.metadata.ownerReferences[0].apiVersion:                          serving.knative.dev/v1
+protoPayload.response.metadata.ownerReferences[0].blockOwnerDeletion:                  True
+protoPayload.response.metadata.ownerReferences[0].controller:                          True
+protoPayload.response.metadata.ownerReferences[0].kind:                                Configuration
+protoPayload.response.metadata.ownerReferences[0].name:                                generate-presentation
+protoPayload.response.metadata.ownerReferences[0].uid:                                 f1034fac-cf9f-425e-896f-47d91cc821e6
+protoPayload.response.metadata.resourceVersion:                                        AAY9O7ZQIo4
+protoPayload.response.metadata.selfLink:                                               /apis/serving.knative.dev/v1/namespaces/273872083706/revisions/generate-presentation-00012-goq
+protoPayload.response.metadata.uid:                                                    0c8583f4-663a-408a-ad81-9ac433bf644d
+protoPayload.response.spec.containerConcurrency:                                       1
+protoPayload.response.spec.containers[0].env[0].name:                                  DRIVE_SHARE_EMAIL
+protoPayload.response.spec.containers[0].env[0].value:                                 aburdenko@google.com
+protoPayload.response.spec.containers[0].env[1].name:                                  GEMINI_MODEL_NAME
+protoPayload.response.spec.containers[0].env[1].value:                                 gemini-2.5-pro
+protoPayload.response.spec.containers[0].env[2].name:                                  LOG_EXECUTION_ID
+protoPayload.response.spec.containers[0].env[2].value:                                 true
+protoPayload.response.spec.containers[0].image:                                        us-central1-docker.pkg.dev/kallogjeri-project-345114/gcf-artifacts/kallogjeri--project--345114__us--central1__generate--presentation@sha256:c2ee5e12047e1ee2c34c89199463a6425151ff0b9d5007c4c7fe4d844182a2b7
+protoPayload.response.spec.containers[0].name:                                         worker
+protoPayload.response.spec.containers[0].ports[0].containerPort:                       8080
+protoPayload.response.spec.containers[0].ports[0].name:                                http1
+protoPayload.response.spec.containers[0].resources.limits.cpu:                         0.5833
+protoPayload.response.spec.containers[0].resources.limits.memory:                      1Gi
+protoPayload.response.spec.containers[0].startupProbe.failureThreshold:                1
+protoPayload.response.spec.containers[0].startupProbe.periodSeconds:                   240
+protoPayload.response.spec.containers[0].startupProbe.tcpSocket.port:                  8080
+protoPayload.response.spec.containers[0].startupProbe.timeoutSeconds:                  240
+protoPayload.response.spec.runtimeClassName:                                           run.googleapis.com/linux-base-image-update
+protoPayload.response.spec.serviceAccountName:                                         273872083706-compute@developer.gserviceaccount.com
+protoPayload.response.spec.timeoutSeconds:                                             60
+protoPayload.response.status.conditions[0].lastTransitionTime:                         2025-08-26T02:48:51.333774Z
+protoPayload.response.status.conditions[0].message:                                    Deploying revision succeeded in 8.29s.
+protoPayload.response.status.conditions[0].status:                                     True
+protoPayload.response.status.conditions[0].type:                                       Ready
+protoPayload.response.status.conditions[1].lastTransitionTime:                         2025-08-26T02:48:51.276644Z
+protoPayload.response.status.conditions[1].message:                                    Containers became healthy in 2.65s.
+protoPayload.response.status.conditions[1].status:                                     True
+protoPayload.response.status.conditions[1].type:                                       ContainerHealthy
+protoPayload.response.status.conditions[2].lastTransitionTime:                         2025-08-26T02:48:46.446855Z
+protoPayload.response.status.conditions[2].message:                                    Container image import completed in 2.47s.
+protoPayload.response.status.conditions[2].status:                                     True
+protoPayload.response.status.conditions[2].type:                                       ContainerReady
+protoPayload.response.status.conditions[3].lastTransitionTime:                         2025-08-26T02:48:48.349186Z
+protoPayload.response.status.conditions[3].message:                                    Provisioning imported containers completed in 1.9s. Checking container health. This will wait for up to 4m for the configured startup probe, including an initial delay of 0s.
+protoPayload.response.status.conditions[3].status:                                     True
+protoPayload.response.status.conditions[3].type:                                       ResourcesAvailable
+protoPayload.response.status.containerStatuses[0].imageDigest:                         us-central1-docker.pkg.dev/kallogjeri-project-345114/gcf-artifacts/kallogjeri--project--345114__us--central1__generate--presentation@sha256:c2ee5e12047e1ee2c34c89199463a6425151ff0b9d5007c4c7fe4d844182a2b7
+protoPayload.response.status.containerStatuses[0].name:                                worker
+protoPayload.response.status.imageDigest:                                              us-central1-docker.pkg.dev/kallogjeri-project-345114/gcf-artifacts/kallogjeri--project--345114__us--central1__generate--presentation@sha256:c2ee5e12047e1ee2c34c89199463a6425151ff0b9d5007c4c7fe4d844182a2b7
+protoPayload.response.status.logUrl:                                                   https://console.cloud.google.com/logs/viewer?project=kallogjeri-project-345114&resource=cloud_run_revision/service_name/generate-presentation/revision_name/generate-presentation-00012-goq&advancedFilter=resource.type%3D%22cloud_run_revision%22%0Aresource.labels.service_name%3D%22generate-presentation%22%0Aresource.labels.revision_name%3D%22generate-presentation-00012-goq%22
+protoPayload.response.status.observedGeneration:                                       1
+protoPayload.serviceName:                                                              run.googleapis.com
+protoPayload.status.message:                                                           Ready condition status changed to True for Revision generate-presentation-00012-goq with message: Deploying revision succeeded in 8.29s.
+receiveTimestamp:                                                                      2025-08-26T02:48:51.980729008Z
+resource.labels.configuration_name:                                                    generate-presentation
+resource.labels.location:                                                              us-central1
+resource.labels.project_id:                                                            kallogjeri-project-345114
+resource.labels.revision_name:                                                         generate-presentation-00012-goq
+resource.labels.service_name:                                                          generate-presentation
+resource.type:                                                                         cloud_run_revision
+severity:                                                                              INFO
+timestamp:                                                                             2025-08-26T02:48:51.344691Z
+---
+insertId:                                      68ad209300040b9a2fb5c6ad
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988be5f27a1c8f2ce4307c938e1e15877cf308c2a77fc304ac5f27d0d9bd0dc75b6074b2dd60786d0b1f7a8febb1f7f2cf00ecdd08c1e024f8af35c66fe29a8059786ff252a3d2f9dcd258e
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fvarlog%2Fsystem
+receiveTimestamp:                              2025-08-26T02:48:51.468632436Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00012-goq
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+severity:                                      INFO
+textPayload:                                   Default STARTUP TCP probe succeeded after 1 attempt for container "worker" on port 8080.
+timestamp:                                     2025-08-26T02:48:51.265114Z
+---
+insertId:                                68ad209000072887e20d7406
+labels.goog-drz-cloudfunctions-id:       generate-presentation
+labels.goog-drz-cloudfunctions-location: us-central1
+labels.goog-managed-by:                  cloudfunctions
+labels.scaling_reason:                   DEPLOYMENT_ROLLOUT
+logName:                                 projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fvarlog%2Fsystem
+receiveTimestamp:                        2025-08-26T02:48:48.473676927Z
+resource.labels.configuration_name:      generate-presentation
+resource.labels.location:                us-central1
+resource.labels.project_id:              kallogjeri-project-345114
+resource.labels.revision_name:           generate-presentation-00012-goq
+resource.labels.service_name:            generate-presentation
+resource.type:                           cloud_run_revision
+severity:                                INFO
+textPayload:                             Starting new instance. Reason: DEPLOYMENT_ROLLOUT - Instance started due to traffic shifting between revisions due to deployment, traffic split adjustment, or deployment health check.
+timestamp:                               2025-08-26T02:48:48.469127Z
+---
+insertId:                                                     l6offdq5a2
+logName:                                                      projects/kallogjeri-project-345114/logs/cloudaudit.googleapis.com%2Factivity
+protoPayload.@type:                                           type.googleapis.com/google.cloud.audit.AuditLog
+protoPayload.authenticationInfo.principalEmail:               service-273872083706@gcf-admin-robot.iam.gserviceaccount.com
+protoPayload.authorizationInfo[0].granted:                    True
+protoPayload.authorizationInfo[0].permission:                 run.services.update
+protoPayload.authorizationInfo[0].permissionType:             ADMIN_WRITE
+protoPayload.authorizationInfo[0].resource:                   namespaces/kallogjeri-project-345114/services/generate-presentation
+protoPayload.authorizationInfo[0].resourceAttributes:         {}
+protoPayload.authorizationInfo[1].granted:                    True
+protoPayload.authorizationInfo[1].permission:                 run.services.update
+protoPayload.authorizationInfo[1].permissionType:             ADMIN_WRITE
+protoPayload.authorizationInfo[1].resource:                   namespaces/kallogjeri-project-345114/services/generate-presentation
+protoPayload.authorizationInfo[1].resourceAttributes.name:    namespaces/kallogjeri-project-345114/services/generate-presentation
+protoPayload.authorizationInfo[1].resourceAttributes.service: run.googleapis.com/
+protoPayload.authorizationInfo[1].resourceAttributes.type:    run.googleapis.com/Service
+protoPayload.methodName:                                      google.cloud.serverless.internal.InternalServices.ReplaceInternalService
+protoPayload.requestMetadata.destinationAttributes:           {}
+protoPayload.requestMetadata.requestAttributes.auth:          {}
+protoPayload.requestMetadata.requestAttributes.time:          2025-08-26T02:48:42.977791Z
+protoPayload.resourceLocation.currentLocations[0]:            us-central1
+protoPayload.resourceName:                                    namespaces/kallogjeri-project-345114/services/generate-presentation
+protoPayload.serviceName:                                     run.googleapis.com
+receiveTimestamp:                                             2025-08-26T02:48:43.775359681Z
+resource.labels.configuration_name:                           
+resource.labels.location:                                     us-central1
+resource.labels.project_id:                                   kallogjeri-project-345114
+resource.labels.revision_name:                                
+resource.labels.service_name:                                 generate-presentation
+resource.type:                                                cloud_run_revision
+severity:                                                     NOTICE
+timestamp:                                                    2025-08-26T02:48:42.742021Z
+---
+insertId:                                                     -ugkijcdx5be
+logName:                                                      projects/kallogjeri-project-345114/logs/cloudaudit.googleapis.com%2Factivity
+protoPayload.@type:                                           type.googleapis.com/google.cloud.audit.AuditLog
+protoPayload.authenticationInfo.principalEmail:               service-273872083706@gcf-admin-robot.iam.gserviceaccount.com
+protoPayload.authorizationInfo[0].granted:                    True
+protoPayload.authorizationInfo[0].permission:                 run.services.update
+protoPayload.authorizationInfo[0].permissionType:             ADMIN_WRITE
+protoPayload.authorizationInfo[0].resource:                   namespaces/kallogjeri-project-345114/services/generate-presentation
+protoPayload.authorizationInfo[0].resourceAttributes:         {}
+protoPayload.authorizationInfo[1].granted:                    True
+protoPayload.authorizationInfo[1].permission:                 run.services.update
+protoPayload.authorizationInfo[1].permissionType:             ADMIN_WRITE
+protoPayload.authorizationInfo[1].resource:                   namespaces/kallogjeri-project-345114/services/generate-presentation
+protoPayload.authorizationInfo[1].resourceAttributes.name:    namespaces/kallogjeri-project-345114/services/generate-presentation
+protoPayload.authorizationInfo[1].resourceAttributes.service: run.googleapis.com/
+protoPayload.authorizationInfo[1].resourceAttributes.type:    run.googleapis.com/Service
+protoPayload.methodName:                                      google.cloud.serverless.internal.InternalServices.ReplaceInternalService
+protoPayload.requestMetadata.destinationAttributes:           {}
+protoPayload.requestMetadata.requestAttributes.auth:          {}
+protoPayload.requestMetadata.requestAttributes.time:          2025-08-26T02:48:07.161915Z
+protoPayload.resourceLocation.currentLocations[0]:            us-central1
+protoPayload.resourceName:                                    namespaces/kallogjeri-project-345114/services/generate-presentation
+protoPayload.serviceName:                                     run.googleapis.com
+receiveTimestamp:                                             2025-08-26T02:48:07.721524193Z
+resource.labels.configuration_name:                           
+resource.labels.location:                                     us-central1
+resource.labels.project_id:                                   kallogjeri-project-345114
+resource.labels.revision_name:                                
+resource.labels.service_name:                                 generate-presentation
+resource.type:                                                cloud_run_revision
+severity:                                                     NOTICE
+timestamp:                                                    2025-08-26T02:48:06.962411Z
+---
+insertId:                                      68ad1fe2000d8b166036436c
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:54.900294216Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   googleapiclient.errors.HttpError: <HttpError 500 when requesting https://slides.googleapis.com/v1/presentations/17w5hI_p_3IkCRWdTLYT9LyL6UOCoY0YwFJfHl-_tWLM?alt=json returned "Internal error encountered.". Details: "Internal error encountered.">
+timestamp:                                     2025-08-26T02:45:54.887574Z
+---
+insertId:                                      68ad1fe1000c370ca86cff1a
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    raise HttpError(resp, content, uri=self.uri)"
+timestamp:                                     2025-08-26T02:45:53.800524Z
+---
+insertId:                                      68ad1fe1000c3701fe52446c
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/googleapiclient/http.py\", line 938, in execute"
+timestamp:                                     2025-08-26T02:45:53.800513Z
+---
+insertId:                                      68ad1fe1000c36fbae9bd378
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "           ^^^^^^^^^^^^^^^^^^^^^^^^"
+timestamp:                                     2025-08-26T02:45:53.800507Z
+---
+insertId:                                      68ad1fe1000c36f040696a4e
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    return wrapped(*args, **kwargs)"
+timestamp:                                     2025-08-26T02:45:53.800496Z
+---
+insertId:                                      68ad1fe1000c36eba33fd74d
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/googleapiclient/_helpers.py\", line 130, in positional_wrapper"
+timestamp:                                     2025-08-26T02:45:53.800491Z
+---
+insertId:                                      68ad1fe1000c36e3dc25c003
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+timestamp:                                     2025-08-26T02:45:53.800483Z
+---
+errorGroups[0].id:                             CK2k_6m6o4bt3AE
+insertId:                                      68ad1fe1000c36d9a3d3a371
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+severity:                                      ERROR
+textPayload:                                   "Traceback (most recent call last):\n  File \"/workspace/main.py\", line 168, in generate_presentation\n    presentation_obj = slides_service.presentations().get(presentationId=pres.get('id')).execute()"
+timestamp:                                     2025-08-26T02:45:53.800473Z
+---
+insertId:                                      68ad1fe1000c36bfc1cd9264
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   }
+timestamp:                                     2025-08-26T02:45:53.800447Z
+---
+insertId:                                      68ad1fe1000c36b8edd69039
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  }"
+timestamp:                                     2025-08-26T02:45:53.800440Z
+---
+insertId:                                      68ad1fe1000c36b29cd538e6
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    \"status\": \"INTERNAL\""
+timestamp:                                     2025-08-26T02:45:53.800434Z
+---
+insertId:                                      68ad1fe1000c3683c37f431d
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    \"message\": \"Internal error encountered.\","
+timestamp:                                     2025-08-26T02:45:53.800387Z
+---
+insertId:                                      68ad1fe1000c367c442bc089
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    \"code\": 500,"
+timestamp:                                     2025-08-26T02:45:53.800380Z
+---
+insertId:                                      68ad1fe1000c3676dab70b55
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  \"error\": {"
+timestamp:                                     2025-08-26T02:45:53.800374Z
+---
+insertId:                                      68ad1fe1000c365e9d20c55e
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:53.901689451Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   ERROR:root:An HttpError occurred: {
+timestamp:                                     2025-08-26T02:45:53.800350Z
+---
+insertId:                                      68ad1fd60006d2aa7752b407
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:42.581064512Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   WARNING:root:Could not resolve shortcut 'Agentic Strategy, Ecosystems, and Value - Pitch Deck' because the target file (ID: 1Gcm_xZTGY4pFxSmwvhPrWNtoMEvK3kRTM-b3c_9EXR8) was not found. This usually means the service account does not have permission to view the original file. Please share the original presentation with this function's service account email.
+timestamp:                                     2025-08-26T02:45:42.447146Z
+---
+insertId:                                      68ad1fd600028a5c3c0cf72c
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:42.243785933Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   WARNING:root:Could not resolve shortcut 'Build AI agents with Google Cloud' because the target file (ID: 1hs094nj5sV1suKPmTF7rJng0K6GTblqciQpn9y7u7Gs) was not found. This usually means the service account does not have permission to view the original file. Please share the original presentation with this function's service account email.
+timestamp:                                     2025-08-26T02:45:42.166492Z
+---
+insertId:                                      68ad1fd60000b49fddf4d6bc
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:42.243785933Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   WARNING:root:Could not resolve shortcut 'Google Cloud Learning paths (go/cloudlearningpaths)' because the target file (ID: 1l9KZfMX8OqVzZq4z6xOldxOzQskxBjxe7yGDLeiPPVM) was not found. This usually means the service account does not have permission to view the original file. Please share the original presentation with this function's service account email.
+timestamp:                                     2025-08-26T02:45:42.046239Z
+---
+insertId:                                      68ad1fd50001580c9e6d9ed7
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:41.244888885Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   WARNING:root:Could not resolve shortcut '[7] Scale and evaluate AI agents | Demo Slides' because the target file (ID: 1_NLW3NxJERSF0zmNICaQWWGN9FJ8IKHjAPkec1lvGK8) was not found. This usually means the service account does not have permission to view the original file. Please share the original presentation with this function's service account email.
+timestamp:                                     2025-08-26T02:45:41.088076Z
+---
+insertId:                                      68ad1fd40008c6ec1edca96f
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:45:40.582520854Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   WARNING:root:Could not resolve shortcut '🤖 go/agentsdeck - Slides for go/agentsforall [External]' because the target file (ID: 1QCXlXXkZWPCz-6Cl7OfVpEEp9HwDWzBh0fMzu_HRxww) was not found. This usually means the service account does not have permission to view the original file. Please share the original presentation with this function's service account email.
+timestamp:                                     2025-08-26T02:45:40.575212Z
+---
+insertId:                                      68ad1fd3000e3de1f76d465a
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fvarlog%2Fsystem
+receiveTimestamp:                              2025-08-26T02:45:40.016471568Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+severity:                                      INFO
+textPayload:                                   Default STARTUP TCP probe succeeded after 1 attempt for container "worker" on port 8080.
+timestamp:                                     2025-08-26T02:45:39.933345Z
+---
+insertId:                                68ad1fd200054dc07921f8ab
+labels.goog-drz-cloudfunctions-id:       generate-presentation
+labels.goog-drz-cloudfunctions-location: us-central1
+labels.goog-managed-by:                  cloudfunctions
+labels.scaling_reason:                   AUTOSCALING
+logName:                                 projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fvarlog%2Fsystem
+receiveTimestamp:                        2025-08-26T02:45:38.350847073Z
+resource.labels.configuration_name:      generate-presentation
+resource.labels.location:                us-central1
+resource.labels.project_id:              kallogjeri-project-345114
+resource.labels.revision_name:           generate-presentation-00011-tor
+resource.labels.service_name:            generate-presentation
+resource.type:                           cloud_run_revision
+severity:                                INFO
+textPayload:                             Starting new instance. Reason: AUTOSCALING - Instance started due to configured scaling factors (e.g. CPU utilization, request throughput, etc.) or no existing capacity for current traffic.
+timestamp:                               2025-08-26T02:45:38.347584Z
+---
+httpRequest.latency:                     15.336180543s
+httpRequest.protocol:                    HTTP/1.1
+httpRequest.referer:                     https://827026108-atari-embeds.googleusercontent.com/
+httpRequest.remoteIp:                    209.6.147.61
+httpRequest.requestMethod:               POST
+httpRequest.requestSize:                 1568
+httpRequest.requestUrl:                  https://us-central1-kallogjeri-project-345114.cloudfunctions.net/generate-presentation
+httpRequest.responseSize:                290
+httpRequest.serverIp:                    216.239.36.54
+httpRequest.status:                      500
+httpRequest.userAgent:                   Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+insertId:                                68ad1fe1000c773de904feda
+labels.goog-drz-cloudfunctions-id:       generate-presentation
+labels.goog-drz-cloudfunctions-location: us-central1
+labels.goog-managed-by:                  cloudfunctions
+labels.instanceId:                       0069c7a9885be373c8fa7802d2af6e2dc91693d3dfd5575b07868e890f4b9d37a45a260a00d59a0a1b35c4ba370e6aa97fd222c1337dd71f2ea8b6b02ae16b68736670766f7cd615bfe71ebe472c0d
+logName:                                 projects/kallogjeri-project-345114/logs/run.googleapis.com%2Frequests
+receiveTimestamp:                        2025-08-26T02:45:53.819856396Z
+resource.labels.configuration_name:      generate-presentation
+resource.labels.location:                us-central1
+resource.labels.project_id:              kallogjeri-project-345114
+resource.labels.revision_name:           generate-presentation-00011-tor
+resource.labels.service_name:            generate-presentation
+resource.type:                           cloud_run_revision
+severity:                                ERROR
+spanId:                                  c89eb5d019bed10f
+timestamp:                               2025-08-26T02:45:38.324511Z
+trace:                                   projects/kallogjeri-project-345114/traces/f9b2f02095fe7fec65a6ed5134bf269e
+traceSampled:                            True
+---
+insertId:                                      68ad18890002e8e16f932c9c
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   ]
+timestamp:                                     2025-08-26T02:14:33.190689Z
+---
+insertId:                                      68ad18890002e8dbdf464dcf
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   }
+timestamp:                                     2025-08-26T02:14:33.190683Z
+---
+insertId:                                      68ad18890002e8d517fc24fe
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  value: \"google.ai.generativelanguage.v1beta.GenerativeService.GenerateContent\""
+timestamp:                                     2025-08-26T02:14:33.190677Z
+---
+insertId:                                      68ad18890002e8cfc4a75bf0
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  key: \"method\""
+timestamp:                                     2025-08-26T02:14:33.190671Z
+---
+insertId:                                      68ad18890002e8c9a77c638d
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   metadata {
+timestamp:                                     2025-08-26T02:14:33.190665Z
+---
+insertId:                                      68ad18890002e8c42c06e043
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   }
+timestamp:                                     2025-08-26T02:14:33.190660Z
+---
+insertId:                                      68ad18890002e8be932a93a3
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  value: \"generativelanguage.googleapis.com\""
+timestamp:                                     2025-08-26T02:14:33.190654Z
+---
+insertId:                                      68ad18890002e8b730fe0e03
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  key: \"service\""
+timestamp:                                     2025-08-26T02:14:33.190647Z
+---
+insertId:                                      68ad18890002e8b12bbde9f2
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   metadata {
+timestamp:                                     2025-08-26T02:14:33.190641Z
+---
+insertId:                                      68ad18890002e8abe8ce10d5
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   domain: "googleapis.com"
+timestamp:                                     2025-08-26T02:14:33.190635Z
+---
+insertId:                                      68ad18890002e8a5019cdea6
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   google.api_core.exceptions.PermissionDenied: 403 Request had insufficient authentication scopes. [reason: "ACCESS_TOKEN_SCOPE_INSUFFICIENT"
+timestamp:                                     2025-08-26T02:14:33.190629Z
+---
+insertId:                                      68ad18890002e89e391d9caa
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    raise exceptions.from_grpc_error(exc) from exc"
+timestamp:                                     2025-08-26T02:14:33.190622Z
+---
+insertId:                                      68ad18890002e8972d74f4e0
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/google/api_core/grpc_helpers.py\", line 78, in error_remapped_callable"
+timestamp:                                     2025-08-26T02:14:33.190615Z
+---
+insertId:                                      68ad18890002e89122076b64
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "           ^^^^^^^^^^^^^^^^^^^^^"
+timestamp:                                     2025-08-26T02:14:33.190609Z
+---
+insertId:                                      68ad18890002e88aa11323e3
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "    return func(*args, **kwargs)"
+timestamp:                                     2025-08-26T02:14:33.190602Z
+---
+insertId:                                      68ad18890002e884373b8951
+labels.goog-drz-cloudfunctions-id:             generate-presentation
+labels.goog-drz-cloudfunctions-location:       us-central1
+labels.goog-managed-by:                        cloudfunctions
+labels.instanceId:                             0069c7a988ca7d960c950444fe3163d1fac32cd6e1a2b9b3dad01ab3524ef64dddd256d8ff534a912b75ad4270b581c3c9dc5601f063419cfce940501b3d7ed5470d50bf0fb7af978e327055816953
+labels.run.googleapis.com/base_image_versions: us-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/python312:python312_20250817_3_12_11_RC00
+logName:                                       projects/kallogjeri-project-345114/logs/run.googleapis.com%2Fstderr
+receiveTimestamp:                              2025-08-26T02:14:33.529312164Z
+resource.labels.configuration_name:            generate-presentation
+resource.labels.location:                      us-central1
+resource.labels.project_id:                    kallogjeri-project-345114
+resource.labels.revision_name:                 generate-presentation-00011-tor
+resource.labels.service_name:                  generate-presentation
+resource.type:                                 cloud_run_revision
+textPayload:                                   "  File \"/layers/google.python.pip/pip/lib/python3.12/site-packages/google/api_core/timeout.py\", line 130, in func_with_timeout"
+timestamp:                                     2025-08-26T02:14:33.190596Z
