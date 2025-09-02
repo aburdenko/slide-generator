@@ -1,5 +1,6 @@
 functions-framework==3.5.0
 google-api-python-client==2.112.0
 google-auth==2.27.0
+google-auth-oauthlib==1.2.0
 google-cloud-aiplatform==1.58.0
 python-dotenv==1.0.1

@@ -30,5 +30,5 @@ gcloud functions deploy $FUNCTION_NAME \
   --allow-unauthenticated \
   --service-account=$FUNCTION_SERVICE_ACCOUNT \
   --set-env-vars FUNCTION_SERVICE_ACCOUNT=$FUNCTION_SERVICE_ACCOUNT,GEMINI_MODEL_NAME=$GEMINI_MODEL_NAME,PROJECT_ID=$PROJECT_ID,REGION=$REGION \
-  --memory=1GiB \
+  --memory=2GiB \
   --timeout=540s # Increase timeout to 9 minutes for long-running generation tasks.

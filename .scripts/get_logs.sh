@@ -38,6 +38,7 @@ gcloud logging read "$FILTER" \
 if [ $? -eq 0 ]; then
   echo "✅ Success! Logs have been saved to: $LOG_FILE"
   echo "You can view the logs with the command: cat $LOG_FILE"
+  echo "Look for entries with 'severity: ERROR' to find the root cause of any issues."
 else
   echo "❌ Error: Failed to fetch logs. Please check your gcloud authentication and permissions." >&2
   exit 1

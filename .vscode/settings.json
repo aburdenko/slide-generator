@@ -1,11 +1,32 @@
 {
-    "emeraldwalk.runonsave": {
-        "commands": [
-            {
-                "match": "(main\\.py|\\.scripts/configure\\.sh|requirements\\.txt)$",
-                "isAsync": true,
-                "cmd": "bash .scripts/deploy.sh",                
-            }
-        ]
+  // These settings configure the VS Code terminal to automatically
+  // source the project's environment configuration script on startup.
+  "terminal.integrated.profiles.linux": {
+    "Project Bash": {
+      "path": "bash",
+      // This tells bash to run our custom init script instead of the default ~/.bashrc.
+      // Our script then sources ~/.bashrc itself, so you don't lose your standard setup.
+      "args": ["--init-file", "${workspaceFolder}/.vscode/terminal_init.sh"]
     }
+  },
+  "terminal.integrated.defaultProfile.linux": "Project Bash",
+
+  // --- Recommended Python Settings ---
+  // Point to the project's virtual environment interpreter.
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/python3.12/bin/python",
+  // We handle venv activation in our terminal_init.sh, so we disable the default activator
+  // to prevent it from running twice.
+  "python.terminal.activateEnvironment": false,
+
+  // --- Recommended Extension Settings ---
+  // Configure the "Run on Save" extension (installed by configure.sh) to format and lint Python files.
+  // You may need to run: pip install black ruff
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.py$",
+        "command": "black ${file} && ruff check --fix ${file}"
+      }
+    ]
+  }
 }

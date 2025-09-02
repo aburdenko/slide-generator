@@ -1,20 +1,16 @@
 #!/bin/bash
-# To test locally:
+
+# This script sends a test request to the local Cloud Function server using
+# the default service account credentials.
+#
+# Before running this script, make sure you have:
 # 1. Run the configuration script once to generate the .env file and set up your gcloud config:
 #    source .scripts/configure.sh
 #
-# 2. Install dependencies and run the local server in a separate terminal.
-#    The server will automatically load variables from the .env file.
-#    functions-framework --target=generate_presentation --port=8080 --debug
+# 2. Run the local server in a separate terminal:
+#    functions-framework --target=generate_presentation --port=8080
 #
-# 3. Run this script to send a test request.
+# 3. To test with your own user credentials, run delegated_test_client.py instead.
 curl -X POST "http://localhost:8080" \
 -H "Content-Type: application/json" \
--d '{
-  "customer_request": "1. An overview of the Google AI Agent Developer Ecosystem. 2. A breakdown of the platform components—ADK, Agent Engine, Agent Builder, Agent Space—and guidance on when to use each. 3. Availability of training resources or tutorials on the Google Skills Learning Platform. 4. Recommended best practices and implementation guidelines. 5. Built-in Responsible AI capabilities within the platform. 6. Observability and security considerations.",
-  "meeting_date": "2025-09-03",
-  "slide_title": "Google AI Agent Developer Ecosystem",
-  "duration": "1 hour",
-  "source_folder_url": "https://drive.google.com/drive/folders/1jSqMJc0oIt5SmF5EJaMazhkyCsIfLWVm?usp=drive_link",
-  "slides_to_update": "https://docs.google.com/presentation/d/1LFiPN1CHpFeBCOt4Hgnvh1OD3YvoL28t4IUMA1bxBL4/edit?usp=sharing"
-}'
+-d @.scripts/test-payload.json

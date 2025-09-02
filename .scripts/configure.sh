@@ -52,6 +52,19 @@ export INDEX_ENDPOINT_DISPLAY_NAME="agentspace_hcls_demo-vector-store-endpoint"
 # The service account key file should be in the root of the project directory.
 # This allows it to be packaged with the Cloud Function for deployment.
 SERVICE_ACCOUNT_KEY_FILE="../service_account.json"
+CLIENT_SECRETS_FILE="../client_secrets.json"
+
+# Export the path to the client secrets file so that the delegated test client
+# can find it. This is used for user-based authentication.
+if [ -f "$CLIENT_SECRETS_FILE" ]; then
+  # Resolve the relative path to an absolute path before exporting.
+  # This makes the script robust, regardless of where it's called from.
+  # The 'realpath' command is standard on most Linux systems.
+  export CLIENT_SECRETS_FILE=$(realpath "$CLIENT_SECRETS_FILE")
+else
+  # This is not a fatal error, as the user may only be using service account auth.
+  echo "Warning: Client secrets file not found at '$PWD/$CLIENT_SECRETS_FILE'. The delegated test client will fail if run."
+fi
 
 # --- Virtual Environment Setup ---
 if [ ! -d ".venv/python3.12" ]; then
@@ -167,6 +180,7 @@ TEMP_ENV_FILE=$(mktemp)
   echo "INDEX_DISPLAY_NAME=${INDEX_DISPLAY_NAME}"
   echo "INDEX_ENDPOINT_DISPLAY_NAME=${INDEX_ENDPOINT_DISPLAY_NAME}"
   echo "GOOGLE_APPLICATION_CREDENTIALS=${GOOGLE_APPLICATION_CREDENTIALS}"
+  echo "CLIENT_SECRETS_FILE=${CLIENT_SECRETS_FILE}"
 } > "$TEMP_ENV_FILE"
 mv "$TEMP_ENV_FILE" "$ENV_FILE"
 

@@ -6,6 +6,7 @@ load_dotenv()
 import json
 import logging
 import google.auth
+from google.oauth2 import credentials as oauth2_credentials
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import vertexai
@@ -75,11 +76,25 @@ def generate_presentation(request):
         if not request_json:
             return ("Error: Invalid JSON payload.", 400, headers)
 
-        # Authenticate once for all actions.
-        # Use google.auth.default() to automatically handle credentials in both
-        # local (JSON key) and deployed (runtime service account) environments.
-        scopes = ['https://www.googleapis.com/auth/presentations', 'https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/cloud-platform']
-        credentials, _ = google.auth.default(scopes=scopes)
+        # --- DYNAMIC AUTHENTICATION ---
+        # Prioritize user-delegated credentials passed via Authorization header.
+        # This is used by the delegated_test_client.py script.
+        # Fall back to the function's service account credentials if no header is present.
+        auth_header = request.headers.get('Authorization')
+        if auth_header and auth_header.startswith('Bearer '):
+            token = auth_header.split(' ')[1]
+            # When using a bearer token, we create credentials directly from it.
+            # The scopes here are for validation and should align with what the client requested.
+            scopes = ['https://www.googleapis.com/auth/presentations', 'https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/cloud-platform']
+            credentials = oauth2_credentials.Credentials(token, scopes=scopes)
+            logging.info("Using user-delegated credentials from Authorization header.")
+        else:
+            # Use google.auth.default() for service account credentials.
+            # This works for local testing (with GOOGLE_APPLICATION_CREDENTIALS from configure.sh)
+            # and when deployed (using the runtime service account).
+            scopes = ['https://www.googleapis.com/auth/presentations', 'https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/cloud-platform']
+            credentials, _ = google.auth.default(scopes=scopes)
+            logging.info("Using default service account credentials.")
 
         # Initialize Vertex AI SDK for the project and location.
         # This ensures the function uses the correct enterprise endpoint (aiplatform.googleapis.com).
